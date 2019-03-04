@@ -1,9 +1,9 @@
 <template>
-    <section class="feedback">
+    <section class="surprise">
         <div class="container">
-            <form class="feedback__form">
-                <h4>ОСТАВЬТЕ ЗАЯВКУ НА ПЛАТНЫЙ ВЫЕЗД НАШЕГО ЗАМЕРЩИКА</h4>
-                <h5>Замер и составление сметы в день обращения</h5>
+            <form class="surprise__form">
+                <h4>ПОДАРОК</h4>
+                <h5>При подписании договора, страховка вашего имущества до 30 млн.</h5>
                 <div class="form-group">
                     <label for="name">ВАШЕ ИМЯ</label>
                     <input type="text" class="form-control" id="name" aria-describedby="nameHelp"
@@ -26,15 +26,15 @@
 
 <script>
     export default {
-        name: "feedback"
+        name: "surprise"
     }
 </script>
 
 <style scoped lang="scss">
-    .feedback {
-        background-image: url("../assets/form-fon.jpg");
+    .surprise {
+        background-image: url("../assets/gift2.jpg");
         background-position: center center;
-        padding: 30px 0;
+        padding: 15px;
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 
         h4 {

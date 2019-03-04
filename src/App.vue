@@ -2,6 +2,10 @@
     <div id="app">
         <app-nav></app-nav>
         <app-header></app-header>
+        <app-services></app-services>
+        <app-surprise></app-surprise>
+        <app-dilettante></app-dilettante>
+        <app-proffesional></app-proffesional>
         <app-feedback></app-feedback>
         <app-reviews></app-reviews>
         <app-per></app-per>
@@ -31,11 +35,11 @@
     }
     .btn-primary,
     .badge-primary{
-        background-color: #ffca18;
+        background-color: #4B5ED4;
         border: 0;
         border-radius: 0;
         &:hover{
-            background-color: #4B5ED4;
+            background-color: #007bff;
         }
     }
     h2{

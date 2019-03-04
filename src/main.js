@@ -3,6 +3,10 @@ import BootstrapVue from 'bootstrap-vue';
 import App from './App.vue'
 import AppNav from './componets/nav';
 import AppHeader from './componets/header';
+import AppServices from './componets/services';
+import AppSurprise from './componets/surprise';
+import AppDilettante from './componets/dilettante';
+import AppProffesional from './componets/proffesional';
 import AppFeedback from './componets/feedback';
 import AppReviews from './componets/reviews';
 import AppPer from './componets/performance';
@@ -19,6 +23,10 @@ import 'bootstrap-vue/dist/bootstrap-vue.js'
 Vue.use(BootstrapVue);
 Vue.component('AppNav', AppNav);
 Vue.component('AppHeader', AppHeader);
+Vue.component('AppServices', AppServices);
+Vue.component('AppSurprise', AppSurprise);
+Vue.component('AppDilettante', AppDilettante);
+Vue.component('AppProffesional', AppProffesional);
 Vue.component('AppFeedback', AppFeedback);
 Vue.component('AppReviews', AppReviews);
 Vue.component('AppPer', AppPer);

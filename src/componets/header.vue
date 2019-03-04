@@ -3,9 +3,9 @@
         <div class="container">
             <div class="row d-flex">
                 <div class="align-self-center col-5">
-                    <h1>ЭЛЕКТРИК АСТАНА</h1>
-                    <p>от простого переноса розеток в квартире до монтажа электропроводки в коммерческих и административных помещениях квалифицированной бригадой электриков</p>
-                    <div class="d-flex justify-content-between">
+                    <h1 class="mb-4">ЭЛЕКТРИК АСТАНА</h1>
+                    <p class="mb-4">от простого переноса розеток в квартире до монтажа электропроводки в коммерческих и административных помещениях квалифицированной бригадой электриков</p>
+                    <div class="d-flex mb-4 justify-content-between">
                         <div>
                             <img src="../assets/payment.png" alt="">
                             Без
